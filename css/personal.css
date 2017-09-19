@@ -1,4 +1,31 @@
-footer {
-  background-color: aqua;
-  margin-top: 500px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.contenedor {
+  margin: auto;
+  width: 1300px;
+}
+
+.principal {
+  background-image: url(../images/forestal.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 791px;
+}
+
+.secundaria {
+  background-image: url(../images/naranja.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 791px;
+}
+
+.tercera {
+  background-image: url(../images/azul.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  height: 791px;
 }
