@@ -30,7 +30,9 @@
   background-position: bottom;
   height: 791px;
 }
-
+body {
+  font-family: 'Dosis', sans-serif;
+}
         /*   ========================== ORDENANDO EL NOMBRE, LOGOS Y EL MENU ====================================*/
 
 .menu ul li {
@@ -78,16 +80,17 @@
   left: 80px;
 }
 .nombre div h1 {
-  font-size: 45px;
+  font-size: 47px;
   border-bottom: 1px solid #9B1D01;
   padding-bottom: 26px;
   color: #A4361D;
+  font-family: 'Ubuntu', sans-serif;
 }
 .nombre div h1, .nombre div h2 {
   margin: 25px;
 }
 .nombre div h2 {
-  font-size: 40px;
+  font-size: 43px;
   padding-left: 33px;
   color: #D96349;
 }
