@@ -97,6 +97,7 @@ body {
 
 /* ========================================== ORDENANDO LA SEGUNDA PAGE ======================================================*/
 
+                                                       /*comienzo aboutme*/
 .aboutme {
   height: 300px;
   width: 900px;
@@ -119,19 +120,67 @@ body {
 .aboutme .me {
   position: absolute;
   left: 350px;
-  top: 96px;
+  top: 92px;
 }
 .me h2 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 43px;
   color: #A4361D;
   padding-left: 15px;
+  margin-bottom: 13px;
 }
 .me p {
   font-family: 'Dosis', sans-serif;
   color: #D96349;
   font-size: 25px;
+}                                             /* fin aboutme*/
+
+                                            /*comienzo skills*/
+
+.skill {
+  height: 300px;
+  width: 900px;
+  position: relative;
+  border-bottom: 1px solid #9B1D01;
 }
+
+.skill div {
+  display: inline-block;
+}
+
+.skill .habilidades {
+  position: absolute;
+  left: 74px;
+  top: 61px;
+}
+
+.skill .laptop {
+  position: absolute;
+  left: 628px;
+  bottom: 47px;
+}
+
+.habilidades p {
+  font-family: 'Dosis', sans-serif;
+  color: #D96349;
+  font-size: 25px;
+}
+.habilidades h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 43px;
+  color: #A4361D;
+  padding-left: 12px;
+  margin-bottom: 15px;
+}
+.laptop img {
+  border-radius: 50%;
+}
+
+
+
+
+
+
 
 
 
