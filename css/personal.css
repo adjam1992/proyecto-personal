@@ -11,6 +11,7 @@
   background-image: url(../images/forestal.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   height: 791px;
 }
 
@@ -29,3 +30,84 @@
   background-position: bottom;
   height: 791px;
 }
+
+        /*   ========================== ORDENANDO EL NOMBRE, LOGOS Y EL MENU ====================================*/
+
+.menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 27px;
+}
+.menu li:before {
+  content: '▿';
+  color: #CF320E;
+}
+
+.menu a {
+  color: #CF320E;
+  text-decoration: none;
+}
+
+.portada {
+  padding-top: 25px;
+  margin-right: 220px;
+}
+.nombreyfrontend, .fotologo {
+  display: inline-block;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nombre {
+  height: 600px;
+  position: relative;
+}
+
+.nombre figure img {
+  position: absolute;
+  bottom: 270px;
+  left: 570px;
+}
+
+.nombre .nombreyfrontend {
+  position: absolute;
+  bottom: 235px;
+  left: 80px;
+}
+.nombre div h1 {
+  font-size: 45px;
+  border-bottom: 1px solid #9B1D01;
+  padding-bottom: 26px;
+  color: #A4361D;
+}
+.nombre div h1, .nombre div h2 {
+  margin: 25px;
+}
+.nombre div h2 {
+  font-size: 40px;
+  padding-left: 33px;
+  color: #D96349;
+}
+
+/* ========================================== ORDENANDO EL ======================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
