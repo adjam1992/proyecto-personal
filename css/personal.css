@@ -95,9 +95,43 @@ body {
   color: #D96349;
 }
 
-/* ========================================== ORDENANDO EL ======================================================*/
+/* ========================================== ORDENANDO LA SEGUNDA PAGE ======================================================*/
 
-
+.aboutme {
+  height: 300px;
+  width: 900px;
+  position: relative;
+  padding-top: 20px;
+  border-bottom: 1px solid #9B1D01; 
+}
+.skill {
+  height: 300px;
+}
+.aboutme div {
+  display: inline-block;
+}
+.yo img {
+  position: absolute;
+  left: 75px;
+  top: 90px;
+  border-radius: 50%;
+}
+.aboutme .me {
+  position: absolute;
+  left: 350px;
+  top: 96px;
+}
+.me h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 43px;
+  color: #A4361D;
+  padding-left: 15px;
+}
+.me p {
+  font-family: 'Dosis', sans-serif;
+  color: #D96349;
+  font-size: 25px;
+}
 
 
 
