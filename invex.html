@@ -4,23 +4,23 @@
     <meta charset="utf-8"/>
     <title>Alexy Aguilera - Web Developer</title>
     <link rel="stylesheet" href="css/personal.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700|Dosis:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700|Dosis:500" rel="stylesheet"/>
   </head>
   <body>
     <section id="1" class="principal">                                                                     <!--PRINCIPAL-->
       <header class="portada contenedor">                                                                   <!--header -->
         <nav class="menu">
           <ul>
-            <li>
+            <li class="transition">
               <a href="invex.html">Home</a>
             </li>
-            <li>
+            <li class="transition">
               <a href="#aboutme">About me</a>
             </li>
-            <li>
+            <li class="transition">
               <a href="#skill">Skills</a>
             </li>
-            <li>
+            <li class="transition">
               <a href="#3">Certificates</a>
             </li>
           </ul>
@@ -29,7 +29,7 @@
       <div class="nombre contenedor">                                                                       <!--nombre-->
         <div class="nombreyfrontend">
           <h1 class="alexyaguilera">ALEXY AGUILERA</h1>
-          <h2 class="frontend">Frontend Developer</h2>
+          <h2 id="frontend" class="transitionfront">Frontend Developer</h2>
         </div>
         <figure class="fotologo">
           <img src="images/logos.png" alt="logotipo" width="125px" height="125px">
@@ -39,8 +39,8 @@
     <section class="secundaria">                                                                              <!--SECUNDARIA-->
       <div id="aboutme" class="aboutme contenedor">                                                           <!-- aboutme-->
         <div>
-          <figure class="yo">
-            <img src="images/yo.jpg" alt="alexyaguilera" width="200px" height="200px"/>
+          <figure id="yo" class="yo">
+            <img class="transition" src="images/yo.jpg" alt="alexyaguilera" width="200px" height="200px"/>
           </figure>
         </div>
         <div class="me">
@@ -59,8 +59,8 @@
           <p>.-JavaScript - jQuery - CSS for email</p>
         </div>
         <div>
-          <figure class="laptop">
-            <img src="images/laptop.jpg" alt="laptop" width="200px" height="200px"/>
+          <figure id="laptop" class="laptop">
+            <img class="transition" src="images/laptop.jpg" alt="laptop" width="200px" height="200px"/>
           </figure>
         </div>
       </div>
@@ -68,6 +68,49 @@
     <section id="3" class="certificados">                                                                     <!--TERCERA-->
     </section>
     <footer class="footer">                                                                                  <!--FOOTER -->
+      <div class="contenedor">
+        <form class="formulario">
+          <h3 class="contact">Contact:</h3>
+          <div class="col1">
+            <div class="areanombre">
+              <label class="nombre">Nombre
+                <input type="text" id="nombre" required rows="7"/>
+              </label>
+            </div>
+            <div class="areaemail"> 
+              <label class="email">E-mail
+                <input type="mail" id="email" required/>
+              </label>
+            </div> 
+            <div class="comentarios"> 
+              <label class="asunto">Asunto
+                <textarea name="asunto" id="comentarios" cols="30" rows="7"></textarea>
+              </label>
+              <input type="submit" value="enviar" class="boton">
+            </div>
+          </div>
+          <div class="col2">
+            <h2 class="personalinfo">Personal Info:</h2>
+            <div>
+              <li>
+                <a><strong>E-mail:</strong>   <span>mimtda@gmail.com</span></a>
+              </li>
+              <li>
+                <a><strong>Teléfono:</strong>   <span>+58 4147978410</span></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/alexyaguileradjam" target="_blank"><strong>Facebook:</strong>   <span>fb.com/alexyaguileradjam</span></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/_AlexyAguilera" target="_blank"><strong>Twitter:</strong>  <span>@_AlexyAguilera</span></a>
+              </li>
+              <li>
+              <a><strong>Instagram:</strong>  <span>@alexydjam</span></a>
+            </li>
+            </div>
+          </div>
+        </form>
+      </div>
     </footer>
   </body>
 </html>

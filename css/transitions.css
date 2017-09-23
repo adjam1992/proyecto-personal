@@ -1,0 +1,72 @@
+/*background-color
+background-position
+background-size
+border-color
+border-width
+color
+border-radius
+font-size
+font-weight
+height width
+left right bottom top
+padding
+opacity
+*/
+
+body div {
+  background-color: aqua;
+}
+
+
+
+.contenedor {
+  margin: 0 auto;
+  width: 600px;
+  font-family: sans-serif;
+}
+
+.transicion {
+  
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.opacity {
+}
+
+.opacity:hover {
+
+}
+
+.fuente:hover {
+
+}
+
+.colores:hover {
+
+}
+
+.rotacion:hover {
+
+}
+
+.escala:hover {
+
+}
+
+.sesgado:hover {
+
+}
+body {
+
+}
+.traslacion:hover {
+}
+
+.mixtas:hover {
+
+}

@@ -6,7 +6,12 @@
   margin: auto;
   width: 1300px;
 }
-
+.transition {
+  transition: .3s;
+}
+.transitionfront {
+  transition: .7s;
+}
 .principal {
   background-image: url(../images/forestal.jpg);
   background-repeat: no-repeat;
@@ -44,7 +49,21 @@ body {
   content: '▿';
   color: #CF320E;
 }
-
+ .menu li:hover {
+  transform: scale(1.1);
+}
+.principal:hover #frontend {
+  transform: translateX(0);
+}
+#frontend {
+  transform: translateX(-623px);
+}
+#yo:hover img {
+  transform: scale(1.1);
+}
+#laptop:hover img {
+  transform: scale(1.1);
+}
 .menu a {
   color: #CF320E;
   text-decoration: none;
@@ -175,6 +194,62 @@ body {
 .laptop img {
   border-radius: 50%;
 }
+
+/*=======================================FOOTER  Y FORMULARIO============================================*/
+
+.formulario div {
+  display: inline-block;
+}
+
+.footer {
+  background-color: #F8E1A7;
+  height: 400px;
+  position: relative;
+}
+.formulario h3, .col2 h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 43px;
+  color: #A4361D;
+}
+.col1 .areanombre {
+  position: absolute;
+  top: 100px;
+  color: #D96349;
+  font-size: 25px;
+  left: 290px;
+}
+.col1 .areaemail {
+  position: absolute;
+  top: 170px;
+  color: #D96349;
+  font-size: 25px;
+  left: 290px;
+}
+.col1 .comentarios {
+  position: absolute;
+  bottom: 50px;
+  color: #D96349;
+  font-size: 25px;
+  left: 290px;
+}
+.col2 div {
+  position: absolute;
+  left: 900px;
+  top: 170px;
+  color: #D96349;
+  font-size: 25px;
+}
+.formulario h3{
+  position: absolute;
+  top: 35px;
+  left: 290px;
+}
+.col2 h2 {
+  position: absolute;
+  left: 900px;
+  top: 35px;
+}
+
 
 
 
